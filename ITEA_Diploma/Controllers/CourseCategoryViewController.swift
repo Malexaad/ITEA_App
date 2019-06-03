@@ -40,10 +40,8 @@ class CourseCategoryViewController: UIViewController, UITableViewDelegate, UITab
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "AboutCourseViewController") as! AboutCourseViewController
-        vc.about = subCategories[indexPath.row].about
-        vc.after = subCategories[indexPath.row].afterCourse
-        vc.more = subCategories[indexPath.row].more
-        vc.courseName = subCategories[indexPath.row].categoryName
+        vc.subCategories = self.subCategories
+        vc.index = indexPath.row
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

@@ -27,7 +27,6 @@ class GoOnCourseViewController: UIViewController, UITextFieldDelegate, UITextVie
     @IBOutlet var phoneTextField: UITextField!
     @IBOutlet var comentTextView: UITextView!
     
-    
     var filter = Filter.LeftBanch
     var rulesFlag = false
     var bodyEmailRequest : String?

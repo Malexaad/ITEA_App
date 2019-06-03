@@ -12,21 +12,16 @@ class AboutCourseViewController: UIViewController {
 
     @IBOutlet var aboutTextView: UITextView!
     @IBOutlet var afterCourseTextView: UITextView!
+    @IBOutlet var aboutNavigationBar: UINavigationBar!
     
-    var about : String?
-    var after : String?
-    var more : String?
-    var courseName : String?
+    var subCategories = [Category]()
+    var index = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
          self.navigationController?.navigationBar.isHidden = true
-        aboutTextView.text = about
-        if(after != nil) {
-            afterCourseTextView.text = AfterCourseTextFormating(text: after!)
-        } else {
-            afterCourseTextView.text = ""
-        }
+        setGuesterRecognizer()
+        SetValueToFields(data: subCategories[index])
     }
     
     func AfterCourseTextFormating(text : String) -> String {
@@ -43,15 +38,42 @@ class AboutCourseViewController: UIViewController {
     
     @IBAction func goOnCourseButtonTapped(_ sender: Any) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "GoOnCourseViewController") as! GoOnCourseViewController
-        vc.courseName = self.courseName
+        vc.courseName = subCategories[index].categoryName
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func moreButtonTapped(_ sender: Any) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "MoreViewController") as! MoreViewController
-        if more != nil {
-            vc.moreAboutCourseText = more
-        }
+        vc.moreAboutCourseText = subCategories[index].more
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func setGuesterRecognizer(){
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(swipeLeft(gesture:)))
+        swipeLeft.direction = .left
+        self.view.addGestureRecognizer(swipeLeft)
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(swipeRight(gesture:)))
+        swipeRight.direction = .right
+        self.view.addGestureRecognizer(swipeRight)
+    }
+    
+    @objc func swipeLeft(gesture: UISwipeGestureRecognizer) {
+        if(index < subCategories.count - 1) {
+            index = index + 1
+            SetValueToFields(data: subCategories[index])
+        }
+    }
+    
+    @objc func swipeRight(gesture: UISwipeGestureRecognizer) {
+        if(index > 0) {
+            index = index - 1
+            SetValueToFields(data: subCategories[index])
+        }
+    }
+    
+    func SetValueToFields(data : Category) {
+        aboutTextView.text = data.about
+        afterCourseTextView.text = AfterCourseTextFormating(text: data.afterCourse)
+        aboutNavigationBar.topItem?.title = data.categoryName
     }
 }

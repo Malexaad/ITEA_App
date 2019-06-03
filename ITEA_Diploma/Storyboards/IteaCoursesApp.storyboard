@@ -226,6 +226,7 @@
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
+                        <outlet property="aboutNavigationBar" destination="Xd5-Cl-l2j" id="1jk-pm-Dmn"/>
                         <outlet property="aboutTextView" destination="xZj-Ui-6p3" id="v9F-rq-RsQ"/>
                         <outlet property="afterCourseTextView" destination="H52-0q-nMI" id="HwL-aQ-ZaW"/>
                     </connections>

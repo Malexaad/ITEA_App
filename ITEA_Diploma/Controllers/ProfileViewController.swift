@@ -49,8 +49,10 @@ class ProfileViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func onSaveButtonTapped(_ sender: Any) {
         saveButton.isHidden = true
-        profile = User(username: profile!.username, password: profile!.password, name: nameText.text!, surname: surnameText.text!, age: ageText.text!, city: cityText.text!, birthday: birthdayText.text!, email: emailTextr.text!, phone: phoneText.text!, currentCourse: currentCurseText.text!, workPlacwe: workPlaceText.text!, userFoto: profile!.userFoto, lastCourses: profile!.lastCourses)
-        ChangeFieldEditFlag(flag: false)
+        if(profile != nil && !nameText.text!.isEmpty && !surnameText.text!.isEmpty && !ageText.text!.isEmpty && !birthdayText.text!.isEmpty && !emailTextr.text!.isEmpty && !phoneText.text!.isEmpty && !currentCurseText.text!.isEmpty && !workPlaceText.text!.isEmpty && !workPlaceText.text!.isEmpty) {
+            profile = User(username: profile!.username, password: profile!.password, name: nameText.text!, surname: surnameText.text!, age: ageText.text!, city: cityText.text!, birthday: birthdayText.text!, email: emailTextr.text!, phone: phoneText.text!, currentCourse: currentCurseText.text!, workPlacwe: workPlaceText.text!, userFoto: profile!.userFoto, lastCourses: profile!.lastCourses)
+            ChangeFieldEditFlag(flag: false)
+        }
     }
     
     func ChangeFieldEditFlag(flag : Bool) {

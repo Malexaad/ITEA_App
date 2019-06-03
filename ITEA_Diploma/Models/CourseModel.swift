@@ -39,5 +39,4 @@ class Category {
         self.afterCourse = afterCourse
         self.more = more
     }
-    
 }
