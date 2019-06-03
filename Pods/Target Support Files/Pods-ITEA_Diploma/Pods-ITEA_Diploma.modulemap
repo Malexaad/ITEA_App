@@ -1,0 +1,6 @@
+framework module Pods_ITEA_Diploma {
+  umbrella header "Pods-ITEA_Diploma-umbrella.h"
+
+  export *
+  module * { export * }
+}

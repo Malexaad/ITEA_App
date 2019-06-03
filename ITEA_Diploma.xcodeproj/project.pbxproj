@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8614DBF8229BDF4900B630E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DBF7229BDF4900B630E5 /* AppDelegate.swift */; };
+		8614DBFF229BDF4A00B630E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8614DBFE229BDF4A00B630E5 /* Assets.xcassets */; };
+		8614DC02229BDF4A00B630E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8614DC00229BDF4A00B630E5 /* LaunchScreen.storyboard */; };
+		8614DC0B229BDFB900B630E5 /* IteaApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8614DC0A229BDFB900B630E5 /* IteaApp.storyboard */; };
+		8614DC10229BE15600B630E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC0F229BE15600B630E5 /* LoginViewController.swift */; };
+		8614DC12229BE46700B630E5 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC11229BE46700B630E5 /* CoursesViewController.swift */; };
+		8614DC14229BE77800B630E5 /* CoursesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC13229BE77800B630E5 /* CoursesCollectionViewCell.swift */; };
+		8614DC16229BFCDF00B630E5 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC15229BFCDF00B630E5 /* FilterViewController.swift */; };
+		8614DC18229BFCEC00B630E5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC17229BFCEC00B630E5 /* ProfileViewController.swift */; };
+		8614DC1A229C040A00B630E5 /* LastCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC19229C040A00B630E5 /* LastCoursesViewController.swift */; };
+		8614DC1C229C044900B630E5 /* IteaCoursesApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8614DC1B229C044900B630E5 /* IteaCoursesApp.storyboard */; };
+		8614DC1E229C3E6B00B630E5 /* AboutCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC1D229C3E6B00B630E5 /* AboutCourseViewController.swift */; };
+		8614DC20229C40E600B630E5 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC1F229C40E600B630E5 /* MoreViewController.swift */; };
+		8614DC22229C420700B630E5 /* GoOnCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC21229C420700B630E5 /* GoOnCourseViewController.swift */; };
+		8614DC25229C4A8C00B630E5 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC24229C4A8C00B630E5 /* UserManager.swift */; };
+		8614DC27229C4A9B00B630E5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC26229C4A9B00B630E5 /* UserModel.swift */; };
+		8614DC29229C614000B630E5 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC28229C614000B630E5 /* CourseModel.swift */; };
+		8614DC2B229C622800B630E5 /* CourseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC2A229C622800B630E5 /* CourseManager.swift */; };
+		8614DC2D229D105600B630E5 /* CourseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614DC2C229D105600B630E5 /* CourseCategoryViewController.swift */; };
+		86961FFA229D76AE000DBA6D /* SubCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86961FF9229D76AE000DBA6D /* SubCategoryTableViewCell.swift */; };
+		86961FFC22A05065000DBA6D /* LastCourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86961FFB22A05065000DBA6D /* LastCourseTableViewCell.swift */; };
+		AA3CEDBC9B85AFEA703BEBE9 /* Pods_ITEA_Diploma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE2397FB91F407C227AE484 /* Pods_ITEA_Diploma.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CE2397FB91F407C227AE484 /* Pods_ITEA_Diploma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITEA_Diploma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8614DBF4229BDF4900B630E5 /* ITEA_Diploma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITEA_Diploma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8614DBF7229BDF4900B630E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8614DBFE229BDF4A00B630E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8614DC01229BDF4A00B630E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8614DC03229BDF4A00B630E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8614DC0A229BDFB900B630E5 /* IteaApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IteaApp.storyboard; sourceTree = "<group>"; };
+		8614DC0F229BE15600B630E5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8614DC11229BE46700B630E5 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		8614DC13229BE77800B630E5 /* CoursesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8614DC15229BFCDF00B630E5 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		8614DC17229BFCEC00B630E5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8614DC19229C040A00B630E5 /* LastCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCoursesViewController.swift; sourceTree = "<group>"; };
+		8614DC1B229C044900B630E5 /* IteaCoursesApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IteaCoursesApp.storyboard; sourceTree = "<group>"; };
+		8614DC1D229C3E6B00B630E5 /* AboutCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCourseViewController.swift; sourceTree = "<group>"; };
+		8614DC1F229C40E600B630E5 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		8614DC21229C420700B630E5 /* GoOnCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoOnCourseViewController.swift; sourceTree = "<group>"; };
+		8614DC24229C4A8C00B630E5 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		8614DC26229C4A9B00B630E5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8614DC28229C614000B630E5 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		8614DC2A229C622800B630E5 /* CourseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseManager.swift; sourceTree = "<group>"; };
+		8614DC2C229D105600B630E5 /* CourseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCategoryViewController.swift; sourceTree = "<group>"; };
+		86961FF9229D76AE000DBA6D /* SubCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		86961FFB22A05065000DBA6D /* LastCourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCourseTableViewCell.swift; sourceTree = "<group>"; };
+		AC76C4858393E5C7B140AF44 /* Pods-ITEA_Diploma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITEA_Diploma.debug.xcconfig"; path = "Target Support Files/Pods-ITEA_Diploma/Pods-ITEA_Diploma.debug.xcconfig"; sourceTree = "<group>"; };
+		C2D4760C4D27C781EBE9C6D5 /* Pods-ITEA_Diploma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITEA_Diploma.release.xcconfig"; path = "Target Support Files/Pods-ITEA_Diploma/Pods-ITEA_Diploma.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8614DBF1229BDF4900B630E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3CEDBC9B85AFEA703BEBE9 /* Pods_ITEA_Diploma.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8614DBEB229BDF4900B630E5 = {
+			isa = PBXGroup;
+			children = (
+				8614DBF6229BDF4900B630E5 /* ITEA_Diploma */,
+				8614DBF5229BDF4900B630E5 /* Products */,
+				E6EDBFF350900DE12ED40517 /* Pods */,
+				AA65401374AF8098DEAE5A26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8614DBF5229BDF4900B630E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8614DBF4229BDF4900B630E5 /* ITEA_Diploma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8614DBF6229BDF4900B630E5 /* ITEA_Diploma */ = {
+			isa = PBXGroup;
+			children = (
+				8614DC23229C48DA00B630E5 /* Managers */,
+				8614DC0E229BDFDF00B630E5 /* Cells */,
+				8614DC0D229BDFD300B630E5 /* Models */,
+				8614DC0C229BDFC700B630E5 /* Controllers */,
+				8614DC09229BDF7A00B630E5 /* Storyboards */,
+				8614DBF7229BDF4900B630E5 /* AppDelegate.swift */,
+				8614DBFE229BDF4A00B630E5 /* Assets.xcassets */,
+				8614DC00229BDF4A00B630E5 /* LaunchScreen.storyboard */,
+				8614DC03229BDF4A00B630E5 /* Info.plist */,
+			);
+			path = ITEA_Diploma;
+			sourceTree = "<group>";
+		};
+		8614DC09229BDF7A00B630E5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8614DC0A229BDFB900B630E5 /* IteaApp.storyboard */,
+				8614DC1B229C044900B630E5 /* IteaCoursesApp.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8614DC0C229BDFC700B630E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8614DC0F229BE15600B630E5 /* LoginViewController.swift */,
+				8614DC11229BE46700B630E5 /* CoursesViewController.swift */,
+				8614DC2C229D105600B630E5 /* CourseCategoryViewController.swift */,
+				8614DC15229BFCDF00B630E5 /* FilterViewController.swift */,
+				8614DC17229BFCEC00B630E5 /* ProfileViewController.swift */,
+				8614DC19229C040A00B630E5 /* LastCoursesViewController.swift */,
+				8614DC1D229C3E6B00B630E5 /* AboutCourseViewController.swift */,
+				8614DC1F229C40E600B630E5 /* MoreViewController.swift */,
+				8614DC21229C420700B630E5 /* GoOnCourseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8614DC0D229BDFD300B630E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8614DC26229C4A9B00B630E5 /* UserModel.swift */,
+				8614DC28229C614000B630E5 /* CourseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8614DC0E229BDFDF00B630E5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8614DC13229BE77800B630E5 /* CoursesCollectionViewCell.swift */,
+				86961FF9229D76AE000DBA6D /* SubCategoryTableViewCell.swift */,
+				86961FFB22A05065000DBA6D /* LastCourseTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8614DC23229C48DA00B630E5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8614DC24229C4A8C00B630E5 /* UserManager.swift */,
+				8614DC2A229C622800B630E5 /* CourseManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AA65401374AF8098DEAE5A26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE2397FB91F407C227AE484 /* Pods_ITEA_Diploma.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6EDBFF350900DE12ED40517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC76C4858393E5C7B140AF44 /* Pods-ITEA_Diploma.debug.xcconfig */,
+				C2D4760C4D27C781EBE9C6D5 /* Pods-ITEA_Diploma.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8614DBF3229BDF4900B630E5 /* ITEA_Diploma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8614DC06229BDF4A00B630E5 /* Build configuration list for PBXNativeTarget "ITEA_Diploma" */;
+			buildPhases = (
+				FE912623D58A92B5F6A04A85 /* [CP] Check Pods Manifest.lock */,
+				8614DBF0229BDF4900B630E5 /* Sources */,
+				8614DBF1229BDF4900B630E5 /* Frameworks */,
+				8614DBF2229BDF4900B630E5 /* Resources */,
+				EF9920622B13B8AB257B5A96 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITEA_Diploma;
+			productName = ITEA_Diploma;
+			productReference = 8614DBF4229BDF4900B630E5 /* ITEA_Diploma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8614DBEC229BDF4900B630E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ITEA;
+				TargetAttributes = {
+					8614DBF3229BDF4900B630E5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8614DBEF229BDF4900B630E5 /* Build configuration list for PBXProject "ITEA_Diploma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8614DBEB229BDF4900B630E5;
+			productRefGroup = 8614DBF5229BDF4900B630E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8614DBF3229BDF4900B630E5 /* ITEA_Diploma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8614DBF2229BDF4900B630E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8614DC1C229C044900B630E5 /* IteaCoursesApp.storyboard in Resources */,
+				8614DC02229BDF4A00B630E5 /* LaunchScreen.storyboard in Resources */,
+				8614DC0B229BDFB900B630E5 /* IteaApp.storyboard in Resources */,
+				8614DBFF229BDF4A00B630E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF9920622B13B8AB257B5A96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ITEA_Diploma/Pods-ITEA_Diploma-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ITEA_Diploma/Pods-ITEA_Diploma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE912623D58A92B5F6A04A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ITEA_Diploma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8614DBF0229BDF4900B630E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8614DC29229C614000B630E5 /* CourseModel.swift in Sources */,
+				8614DC22229C420700B630E5 /* GoOnCourseViewController.swift in Sources */,
+				8614DC20229C40E600B630E5 /* MoreViewController.swift in Sources */,
+				8614DC18229BFCEC00B630E5 /* ProfileViewController.swift in Sources */,
+				86961FFA229D76AE000DBA6D /* SubCategoryTableViewCell.swift in Sources */,
+				8614DC2B229C622800B630E5 /* CourseManager.swift in Sources */,
+				8614DC10229BE15600B630E5 /* LoginViewController.swift in Sources */,
+				8614DC1A229C040A00B630E5 /* LastCoursesViewController.swift in Sources */,
+				8614DC14229BE77800B630E5 /* CoursesCollectionViewCell.swift in Sources */,
+				8614DBF8229BDF4900B630E5 /* AppDelegate.swift in Sources */,
+				8614DC1E229C3E6B00B630E5 /* AboutCourseViewController.swift in Sources */,
+				8614DC12229BE46700B630E5 /* CoursesViewController.swift in Sources */,
+				86961FFC22A05065000DBA6D /* LastCourseTableViewCell.swift in Sources */,
+				8614DC25229C4A8C00B630E5 /* UserManager.swift in Sources */,
+				8614DC27229C4A9B00B630E5 /* UserModel.swift in Sources */,
+				8614DC16229BFCDF00B630E5 /* FilterViewController.swift in Sources */,
+				8614DC2D229D105600B630E5 /* CourseCategoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8614DC00229BDF4A00B630E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8614DC01229BDF4A00B630E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8614DC04229BDF4A00B630E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8614DC05229BDF4A00B630E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8614DC07229BDF4A00B630E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC76C4858393E5C7B140AF44 /* Pods-ITEA_Diploma.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTW2ZGJW57;
+				INFOPLIST_FILE = ITEA_Diploma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITEA.Home.ITEA-Diploma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8614DC08229BDF4A00B630E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D4760C4D27C781EBE9C6D5 /* Pods-ITEA_Diploma.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTW2ZGJW57;
+				INFOPLIST_FILE = ITEA_Diploma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITEA.Home.ITEA-Diploma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8614DBEF229BDF4900B630E5 /* Build configuration list for PBXProject "ITEA_Diploma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8614DC04229BDF4A00B630E5 /* Debug */,
+				8614DC05229BDF4A00B630E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8614DC06229BDF4A00B630E5 /* Build configuration list for PBXNativeTarget "ITEA_Diploma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8614DC07229BDF4A00B630E5 /* Debug */,
+				8614DC08229BDF4A00B630E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8614DBEC229BDF4900B630E5 /* Project object */;
+}

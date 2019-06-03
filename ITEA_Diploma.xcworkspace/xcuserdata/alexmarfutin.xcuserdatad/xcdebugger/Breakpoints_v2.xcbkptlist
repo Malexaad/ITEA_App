@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ITEA_Diploma/Controllers/CoursesViewController.swift"
+            timestampString = "581245344.41091"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ITEA_Diploma/Controllers/CoursesViewController.swift"
+            timestampString = "581245344.410971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ITEA_Diploma/Controllers/CoursesViewController.swift"
+            timestampString = "581245344.411015"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ITEA_Diploma/Controllers/CoursesViewController.swift"
+            timestampString = "581245344.4110579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ITEA_Diploma/Controllers/CoursesViewController.swift"
+            timestampString = "581245344.411099"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "FilterCourseList(filterTime:filterType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ITEA_Diploma.CoursesViewController.FilterCourseList(filter: Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;ITEA_Diploma.Course&gt;"
+                  moduleName = "ITEA_Diploma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexmarfutin/Desktop/ITEA_Diploma/ITEA_Diploma/Controllers/CoursesViewController.swift"
+                  timestampString = "580735669.221646"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ITEA_Diploma.Course) -&gt; Swift.Bool in ITEA_Diploma.CoursesViewController.FilterCourseList(filter: Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;ITEA_Diploma.Course&gt;"
+                  moduleName = "ITEA_Diploma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexmarfutin/Desktop/ITEA_Diploma/ITEA_Diploma/Controllers/CoursesViewController.swift"
+                  timestampString = "580735669.223471"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ITEA_Diploma/Controllers/CoursesViewController.swift"
+            timestampString = "581245344.411142"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "FilterCourseList(filterTime:filterType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ITEA_Diploma.CoursesViewController.FilterCourseList(filter: Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;ITEA_Diploma.Course&gt;"
+                  moduleName = "ITEA_Diploma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexmarfutin/Desktop/ITEA_Diploma/ITEA_Diploma/Controllers/CoursesViewController.swift"
+                  timestampString = "580735896.262203"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ITEA_Diploma.CoursesViewController.FilterCourseList(filter: Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;ITEA_Diploma.Course&gt;"
+                  moduleName = "ITEA_Diploma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexmarfutin/Desktop/ITEA_Diploma/ITEA_Diploma/Controllers/CoursesViewController.swift"
+                  timestampString = "580735896.264364"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ITEA_Diploma.CoursesViewController.FilterCourseList(filter: Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;ITEA_Diploma.Course&gt;"
+                  moduleName = "ITEA_Diploma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexmarfutin/Desktop/ITEA_Diploma/ITEA_Diploma/Controllers/CoursesViewController.swift"
+                  timestampString = "580735896.266961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "822">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ITEA_Diploma.CoursesViewController.FilterCourseList(filter: Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;ITEA_Diploma.Course&gt;"
+                  moduleName = "ITEA_Diploma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexmarfutin/Desktop/ITEA_Diploma/ITEA_Diploma/Controllers/CoursesViewController.swift"
+                  timestampString = "580735896.26886"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1189">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ITEA_Diploma.CoursesViewController.FilterCourseList(filter: Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;ITEA_Diploma.Course&gt;"
+                  moduleName = "ITEA_Diploma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexmarfutin/Desktop/ITEA_Diploma/ITEA_Diploma/Controllers/CoursesViewController.swift"
+                  timestampString = "580735896.271084"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1565">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ITEA_Diploma.CoursesViewController.FilterCourseList(filter: Swift.Optional&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;ITEA_Diploma.Course&gt;"
+                  moduleName = "ITEA_Diploma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexmarfutin/Desktop/ITEA_Diploma/ITEA_Diploma/Controllers/CoursesViewController.swift"
+                  timestampString = "580735896.272938"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1941">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ITEA_Diploma/Controllers/FilterViewController.swift"
+            timestampString = "581245344.411185"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "SetFilter(filterByTime:filterByType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
